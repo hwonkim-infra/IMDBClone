@@ -21,7 +21,7 @@ export default async function Home({ searchParams }) {
 
   // console.log(results);
 
-  return <h1 className="text-red-400">
+  return <h1 className="text-white">
     <Results results={results} />
   </h1>;
 }
